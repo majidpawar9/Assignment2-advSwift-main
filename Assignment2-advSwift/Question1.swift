@@ -36,7 +36,9 @@ func calculateArea(height: Int,width: Int) -> Int {
  return type:
     - String
  */
-
+func allCap(string: String) -> String{
+    return string.uppercased()
+}
 /**
  FUNCTION 3:
  create a function that will return the middle element of an array
