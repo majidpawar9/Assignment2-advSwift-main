@@ -20,7 +20,13 @@ import Foundation
     - width: Int
  return type:
     - Int
+ */
+func calculateArea(height: Int,width: Int) -> Int {
+    return height * width
+    
+}
  
+/**
  FUNCTION 2:
  create a function that will convert and print a string into all caps
  function name:
@@ -29,7 +35,9 @@ import Foundation
     - string: String
  return type:
     - String
- 
+ */
+
+/**
  FUNCTION 3:
  create a function that will return the middle element of an array
  function name:
