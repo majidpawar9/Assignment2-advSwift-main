@@ -38,6 +38,7 @@ import Foundation
  - override upgradeRam() => if the ram is not upgradable do nothing
  - closeScreen() => this will set the laptop state to 'Sleep'
  */
+// Parent Class
 class Computer {
     var cpu: String
     var gpu: String
@@ -70,6 +71,7 @@ class Computer {
     }
 }
 
+// Child Class
 class Laptop: Computer {
     var isRamUpgradable: Bool
     var screenSize: Double
