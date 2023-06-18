@@ -58,8 +58,7 @@ func middle<Int>(array: [Int]) -> Int? {
     }
     
     let middleNum = array.count / 2
-    
-    if middleNum % 2 == 0 {
+    if (array.count % 2 == 0) {
         return nil
     }
     else {
