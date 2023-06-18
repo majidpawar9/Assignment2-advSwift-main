@@ -18,3 +18,6 @@ let a2 = middle(array: arr2)
 print(a1)
 print(a2!)
 
+// Question2 Test Case
+let rec = Rectangle(height: 2, width: 2, color: "Black")
+rec.printColor()
