@@ -52,7 +52,7 @@ func allCap(string: String) -> String{
  ex: [1,2,3,4,5,6] has no middle because 3,4 are both in the middle
  ex: [1,2,3,4,5] has a middle of 3
  */
-func middle<Int>(array: [Int]) -> Int! {
+func middle<Int>(array: [Int]) -> Int? {
     if array.isEmpty {
             return nil
     }
