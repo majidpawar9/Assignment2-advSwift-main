@@ -53,7 +53,7 @@ func allCap(string: String) -> String{
  ex: [1,2,3,4,5] has a middle of 3
  */
 func middle<Int>(array: [Int]) -> Int? {
-    if array.isEmpty {
+    guard !array.isEmpty else {
             return nil
     }
     
